@@ -1,13 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>My Website</title>
-</head>
-<body>
-    <h1>Hello world</h1>
-</body>
+  </head>
+  <body>
+    <!-- Header -->
+    <section id="header">
+      <div class="header container">
+        <div class="nav-bar">
+          <div class="brand">
+            <a href="#home">
+              <h1><span>A</span>lmedin <span>A</span>libasic</h1>
+            </a>
+          </div>
+
+          <div class="nav-list">
+            <div class="mobile-nav">
+              <div class="bar"></div>
+            </div>
+            <ul>
+              <li><a href="#home" data-after="Home">Home</a></li>
+              <li><a href="#about" data-after="About">About</a></li>
+              <li><a href="#projects" data-after="Projects">Projects</a></li>
+
+              <li><a href="#contact" data-after="Contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Header -->
+
+    <!-- Home section -->
+    <section id="home">
+      <div class="home container">
+        <div>
+          <h1>Hello, <span></span></h1>
+          <h1>I'm Almedin<span></span></h1>
+          <h1>
+            a software developer.
+            <span></span>
+          </h1>
+
+          <a href="/Resume.pdf" type="button" class="cta" download
+            >Download Resume</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- End of Home section -->
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="about container">
+        <div class="col-left">
+          <div class="about-img">
+            <img src="./img/me2.jpg" alt="img" />
+          </div>
+        </div>
+        <div class="col-right">
+          <h1 class="section-title">About <span>me</span></h1>
+          <h2>Front End Developer</h2>
+          <p>
+            Since I'm someone who got into web development not so long ago, I'm
+            always open to face new challenges and to learn new things. One of
+            my ambitions is to become the best programmer I can humanly be. 
+            My official education is the <em>Bachelor of Business Economics.</em>
+            <p>With a passion for both personal growth and for software development, when I'm not at work, I spend my free time studying, exploring, and building. Experience has taught me to take accessibility and responsiveness seriously.
+              Although I find everything about programming interesting, web development is my passion and I love working in Front End area.
+              My experience mostly spans the JavaScript ecosystem: <strong>JavaScript, TypeScript, React, Node.js. </strong>I'm seeking for improvement in everything I do. Often a bit uncomfortable, but always going out of my comfort zone.
+              As I'm curious person, I enjoy watching all sorts of movies, tv shows, documentaries. When I'm not working and developing, I'm hitting the gym! Doing work out, and sports generally, brings me positive energy.  </p>
+              
+          </p>
+          
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- Projects section  -->
+
+    <section id="projects">
+      <div class="projects container">
+        <div class="projects-header">
+          <h1 class="section-title">Recent <span>Projects</span></h1>
+        </div>
+        <div class="all-projects">
+          <div class="project-item">
+            <div class="project-info">
+              <h1>VINTAGELAND eCommerce platform</h1>
+              <a href="https://vintageland.herokuapp.com/" type="button"
+                >https://vintageland.herokuapp.com/</a
+              >
+              <p>
+                <strong
+                  ><em
+                    >eCommerce platform built with the MERN stack & Redux.</em
+                  ></strong
+                >
+                <span></span>
+              </p>
+              <p>
+                <strong>Features:</strong> Full featured shopping cart, product
+                reviews and ratings, top product carousel, product pagination,
+                product search feature, admin managment over users and products (Admin credentials are - email: admin@example.com, password: 123456),
+                user profile, checkout process, database seeder (products and
+                users)
+              </p>
+              <a
+                href="https://github.com/almdnn/E-Commerce-application"
+                type="button"
+                >https://github.com/almdnn/E-Commerce-application</a
+              >
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Burger Builder</h1>
+              <a href="https://make-ur-burger.netlify.app/" type="button"
+                >https://make-ur-burger.netlify.app/</a
+              >
+
+              <p>
+                <strong
+                  >Dinamically build your burger, add ingredients, modal view of
+                  your purchase, fully responsive</strong
+                >
+              </p>
+              <a
+                href="https://github.com/almdnn/Burger-Builder---React-App"
+                type="button"
+                >https://github.com/almdnn/Burger-Builder---React-App</a
+              >
+            </div>
+          </div>
+
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Food Delivery</h1>
+              <a href="https://deliveryfood-61b35.web.app/" type="button"
+                >https://deliveryfood-61b35.web.app/</a
+              >
+              <p>
+                <strong>Food delivery app, firebase used as backend. </strong>
+              </p>
+              <a
+                href="https://github.com/almdnn/Food-Delivery-App----React-App"
+                type="button"
+                >https://github.com/almdnn/Food-Delivery-App----React-App</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Projects section  -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="contact container">
+        <div>
+          <h1 class="section-title">Contact <span>info</span></h1>
+        </div>
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="icon">
+              <img src="https://img.icons8.com/bubbles/100/000000/phone.png" />
+            </div>
+            <div class="contact-info">
+              <h1>Phone</h1>
+              <h2>+38761 517 699</h2>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon">
+              <img
+                src="https://img.icons8.com/bubbles/100/000000/new-post.png"
+              />
+            </div>
+            <div class="contact-info">
+              <h1>Email</h1>
+              <h2>alibasicalmedin@gmail.com</h2>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon">
+              <img
+                src="https://img.icons8.com/bubbles/100/000000/map-marker.png"
+              />
+            </div>
+            <div class="contact-info">
+              <h1>Address</h1>
+              <h2>Konjic, Kolonija 21, BiH</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Section -->
+
+    <!-- Footer -->
+    <section id="footer">
+      <div class="footer container">
+        <div class="social-icon">
+          <div class="social-item">
+            <a href="https://www.facebook.com/almedin.aliibasic/"
+              ><img
+                src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"
+            /></a>
+          </div>
+          <div class="social-item">
+            <a href="https://www.instagram.com/almedin.alibasicc/"
+              ><img
+                src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"
+            /></a>
+          </div>
+          <div class="social-item">
+            <a href="https://github.com/almdnn"
+              ><img src="https://img.icons8.com/bubbles/100/000000/github.png"
+            /></a>
+          </div>
+        </div>
+        <p>Copyright © 2022 Almedin. All rights reserved</p>
+      </div>
+    </section>
+    <!-- End Footer -->
+    <script src="/script.js"></script>
+  </body>
 </html>
