@@ -540,7 +540,7 @@ p {
 		flex-direction: row-reverse;
 	}
 	#projects .project-item {
-		height: 400px;
+		height: 300px;
 		margin: 10px;
 		width: 100%;
 		border-radius: 30px;
